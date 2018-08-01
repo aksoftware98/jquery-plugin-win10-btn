@@ -1,0 +1,106 @@
+.win-10-btn {
+    height:150px; 
+    perspective: 50em;
+    padding: -5em;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+    margin: 2px;
+}
+
+.win-10-btn:hover{
+    color:white;
+}
+/* Background Color  */
+.win-10-btn .color-yellow{
+    background-color: #FFB900;
+    border: solid 3px #FFB900;
+}
+
+.win-10-btn .color-orange{
+    background-color: #D83b01;
+    border: solid 3px #D83b01;
+}
+
+.win-10-btn .color-red{
+    background-color: #E81123;
+    border: solid 3px #E81123;
+}
+
+.win-10-btn .color-magenta{
+    background-color: #B4009E;
+    border: solid 3px #B4009E;
+}
+
+.win-10-btn .color-purple{
+    background-color: #5C2D91;
+    border: solid 3px #5C2D91;
+}
+
+.win-10-btn .color-blue{
+    background-color: #0078D7;
+    border: solid 3px #0078D7;
+}
+
+.win-10-btn .color-teal{
+    background-color: #008272;
+    border: solid 3px #008272;
+}
+
+.win-10-btn .color-green{
+    background-color: #107C10;
+    border: solid 3px #107C10;
+}
+
+
+/* The main body  */
+
+.win-10-btn .btn-body{
+    margin: 5px; 
+    transition: transform 350ms;
+    width:100%;
+    height: 100%;
+    padding-top:10%;
+}
+
+.win-10-btn .btn-body:hover {
+    border: solid 3px lightgray;
+    transition: transform 350ms;
+}
+
+.win-10-btn .btn-top-right-click{
+    transform: rotateX(7deg) rotateY(7deg);
+}
+
+.win-10-btn  .btn-top-left-click{
+    transform: rotateX(7deg) rotateY(-7deg);
+}
+
+.win-10-btn  .btn-bottom-right-click{
+    transform: rotateX(-7deg) rotateY(7deg);
+}
+
+.win-10-btn .btn-bottom-left-click{
+    transform: rotateX(-7deg) rotateY(-7deg);
+}
+
+.win-10-btn .btn-middle-bottom-click{
+    transform: rotateX(-7deg);
+}
+
+.win-10-btn .btn-middle-top-click{
+    transform: rotateX(7deg);
+}
+
+.win-10-btn .btn-middle-right-click{
+    transform: rotateY(7deg);
+}
+
+.win-10-btn .btn-middle-left-click{
+    transform: rotateY(-7deg);
+}
+
+.win-10-btn .btn-center-click{
+    transform: scale(0.95);
+    
+}
